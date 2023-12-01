@@ -1,0 +1,256 @@
+
+body{
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: white;
+}
+
+.principal-prom{
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+.img-productos{
+    height: 60%;
+    width: 80%;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px #ecb5de;
+}
+
+.img-productos:hover{
+    transform: scale(1.1);
+}
+
+.btn-principal{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.btn-mostrar{
+    margin-top: 2vh;
+    box-sizing: border-box;
+    border-color: #e353bf;
+}
+
+.btn-mostrar:hover{
+    background-color:#e353bf; 
+    scale: 1.2;
+    border-radius: 30vh;
+    font-weight: 600;
+}
+
+.carousel-item img{
+    height:80vh;
+}
+
+.bebidas-conalc{
+    width: 100%;
+}
+
+.carousel-caption{
+    color: black;
+    text-align: center;  
+}
+
+.btn-bebidas{
+    text-align: left;
+    border-radius: 50%;
+    background-color: #ecb5de;
+    font-size: 130%;
+    font-weight: 800;
+    border: none;
+}
+
+.btn-bebidas:hover{
+    scale: 1.3;
+    background-color: #e353bf ;
+}
+
+.txt-conalc{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 60vh;
+    align-items: center;
+    font-size: 150%;
+    margin-top: 8vh;
+}
+
+/*snacks*/
+
+h2{
+    text-align: center;
+    background-color:#e353bf  ;
+    width: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight:800 ;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.snacks, .cigarrillos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    margin: 2%;
+    border: solid #ecb5de;
+}
+
+p{
+    padding: 3px;
+    margin-top: 1vh;
+    align-self: center;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.snack-boton{
+   border: 2px solid #e353bf;
+   text-decoration: none;
+   color: black;
+   font-size: 3vh;
+   background-color: #ecb5de;
+   padding: 0.5vh;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border-color: #e353bf;
+    
+}
+
+.snack-boton:hover{
+    background-color:#ecb5de;
+    font-weight: 600;
+    border-radius: 2vh;
+}
+
+.card-img-cigarros{
+    height: 50%;
+}
+
+.publicidades {
+    flex-direction: row;
+    float: right;
+    width: 20%;
+    margin-top: 5VH;
+    height: 46vh;
+    margin-right: 2%;
+}
+
+.mas-buscados img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50v;
+}
+
+.publicidad2{
+    margin-top: 120%;  
+}
+
+.publicidad2  img{
+    width: 40vh;
+}
+
+.publicidad3{
+    margin-top: 30%; 
+}
+
+.publicidad3 img{
+    width: 40vh;
+    height: 40vh;
+}
+   
+.bg-NAV {
+    background-color: #ecb5de;
+}
+          
+.bg-footer {
+    background-color: #ecb5de;
+}
+
+
+/*media query*/
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        padding: auto;
+    }
+
+    .mas-buscados{
+        visibility: hidden;
+    }
+
+    .publicidades{
+        margin-top: 0;
+    }
+
+    .publicidad2{
+        margin-top: 1VH ;
+    }
+
+    .publicidad2 img{
+        width: 15vh;
+        
+    }
+
+    .publicidad3 img{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .snacks, .cigarrillos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20vh;
+    }
+
+    .carousel-item img{
+        width: 50vh;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .snacks, .cigarrillos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20vh;
+    }
+    .mas-buscados{
+        visibility: hidden;
+    }
+
+    .publicidad2 img{
+        width: 15vh;
+        
+    }
+
+    .publicidades{
+        margin-top: 0;
+    }
+
+
+    .publicidad3 img{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .txt-conalc{
+        visibility: hidden;
+    }
+    
+}
+
+
+
