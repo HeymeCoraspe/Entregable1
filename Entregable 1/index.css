@@ -4,6 +4,7 @@ body{
     font-size: 100%;
     font-family: 'Space Grotesk', sans-serif;
     background-color: white;
+    width: 100%;
 }
 
 .principal-prom{
@@ -95,6 +96,7 @@ h4{
     display: flex;
     align-items: center;
     width: 100%;
+    padding-left: 1vh;
 }
 
 .card {
@@ -142,33 +144,35 @@ p{
     width: 20%;
     margin-top: 5VH;
     height: 46vh;
-    margin-right: 2%;
 }
 
-.masBuscados-img{
-    width: 32vh;
-    height: 40vh !important;
-    border-radius: 50vf;
+.publicidad1{
+    margin-top: 10vh;
+    padding: 1vh;
 }
 
-.ParrLosMas{
-    margin-left: 4vh;
+.publicidad1 img{
+    width: 45vh;
+    padding: 1vh;
 }
 
 .publicidad2{
-    margin-top: 120%;  
+    margin-top: 8vh; 
+    padding: 1vh; 
 }
 
 .publicidad2  img{
-    width: 40vh;
+    width: 45vh;
+    padding: 1vh;
 }
 
 .publicidad3{
-    margin-top: 30%; 
+    margin-top: 8vh; 
+    padding: 1vh;
 }
 
 .publicidad3 img{
-    width: 40vh;
+    width: 45vh;
     height: 40vh;
 }
    
@@ -183,40 +187,37 @@ p{
 
 /*media query*/
 
-@media only screen and (min-width: 475px) and (max-width: 600px){
-    .mas-buscados{
+@media only screen and (max-width: 480px){
+
+    .publicidad1 img{
         visibility: hidden;
+        width: 1vh;
     }
 
-    
     .snacks, .cigarrillos{
         display: flex;
         flex-wrap: wrap;
-        padding-left: 20vh;
-    }
-
-    .publicidades{
-        margin-top: 0;
+        padding-left: 10vh;
     }
 
     .publicidad2 {
-        margin-top: -7vh ;
+        margin-top: -10vh ;
     }
 
     .publicidad2 img{
-        width: 13vh;
-        margin-top: 8vh ; 
- 
+        width: 15vh;
+        margin-top: 1vh ; 
+        padding-right: 2vh;
+        padding-left: 0vh;
     }
 
     .publicidad3 img{
         width: 13vh;
-        height: 13vh;
-       
+        height: 12vh;   
     }
 
     .carousel-item img{
-        width:39vh;
+        width: 55vh;
     }
 
 
@@ -224,26 +225,23 @@ p{
 
 
 
-@media only screen and (min-width: 600px) and (max-width: 767px)  {
+@media only screen and (min-width: 481px) and (max-width: 767px)  {
 
     .container{
         padding: auto;
     }
 
-    .mas-buscados{
+    .publicidad1 img {
         visibility: hidden;
-    }
-
-    .publicidades{
-        margin-top: 0;
+        width: 1vh;
     }
 
     .publicidad2 {
-        margin-top: -7vh ;
+        margin-top: -10vh ;
     }
 
     .publicidad2 img{
-        width: 18vh;
+        width: 19vh;
         margin-top: 8vh ; 
  
     }
@@ -270,6 +268,7 @@ p{
 
 }
 
+
 @media only screen and (min-width: 767px) and (max-width: 980px){
 
     .snacks, .cigarrillos{
@@ -277,27 +276,33 @@ p{
         flex-wrap: wrap;
         padding-left: 20vh;
     }
-    .mas-buscados{
-        visibility: hidden;
-    }
 
     .publicidad2 img{
-        width:21vh;
+        visibility: hidden;
+        width: 1vh;
+    }
 
+    .publicidad1 img{
+        width:25vh;
     }
 
     .publicidad2{
-        margin-top: 1vh;
+        margin-top: -35vh;
+    }
+
+    .publicidad3{
+        margin-top: 40vh;
     }
 
     .publicidad3 img{
-        width: 21vh;
-        height: 21vh;
+        width: 25vh;
+        height: 25vh;
         padding-right: 2vh;
     }
 
     .txt-conalc{
         visibility: hidden;
+        width: 1vh;
     }
     
 }
@@ -305,52 +310,59 @@ p{
 @media only screen and (min-width: 980px) and (max-width: 1024px){
     .txt-conalc{
         visibility: hidden;
+        width: 1vh;
     } 
 
+    .publicidad1 img{
+        width: 35vh;
+        padding-right: 2vh;
+    }
+
     .publicidad2 img{
-        width: 23vh;
+        width: 35vh;
         padding-right: 2vh;
     }
 
     .publicidad3 img{
-        width: 23vh;
-        height: 23vh;
+        width: 35vh;
+        height: 35vh;
         padding-right: 2vh;
     }
 
     .publicidad2{
-        margin-top: 45vh;
+        margin-top: 5vh;
     }
 
     .publicidad3{
-        margin-top: 2vh;
-     
-    }
-    .masBuscados-img{
-        width: 30vh;
+        margin-top: 5vh;
     }
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1300px){
+
+    .publicidad1 img{
+        width: 37vh;
+        padding-right: 2vh;
+    }
+
     .publicidad2 img{
-        width: 27vh;
+        width: 37vh;
         padding-right: 2vh;
     }
 
     .publicidad3 img{
-        width: 27vh;
-        height: 23vh;
+        width: 37vh;
+        height: 37vh;
         padding-right: 2vh;
     }
 
     .publicidad2{
-        margin-top: 50vh; 
+        margin-top: 7vh; 
     }
 
     .publicidad3{
-        margin-top: 2vh;
-     
+        margin-top: 7vh;
     }
 
 }
