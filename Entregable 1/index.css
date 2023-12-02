@@ -145,10 +145,14 @@ p{
     margin-right: 2%;
 }
 
-.mas-buscados img{
-    width: 40vh;
-    height: 40vh;
-    border-radius: 50v;
+.masBuscados-img{
+    width: 32vh;
+    height: 40vh !important;
+    border-radius: 50vf;
+}
+
+.ParrLosMas{
+    margin-left: 4vh;
 }
 
 .publicidad2{
@@ -179,7 +183,48 @@ p{
 
 /*media query*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 475px) and (max-width: 600px){
+    .mas-buscados{
+        visibility: hidden;
+    }
+
+    
+    .snacks, .cigarrillos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20vh;
+    }
+
+    .publicidades{
+        margin-top: 0;
+    }
+
+    .publicidad2 {
+        margin-top: -7vh ;
+    }
+
+    .publicidad2 img{
+        width: 13vh;
+        margin-top: 8vh ; 
+ 
+    }
+
+    .publicidad3 img{
+        width: 13vh;
+        height: 13vh;
+       
+    }
+
+    .carousel-item img{
+        width:39vh;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px)  {
 
     .container{
         padding: auto;
@@ -193,18 +238,20 @@ p{
         margin-top: 0;
     }
 
-    .publicidad2{
-        margin-top: 1VH ;
+    .publicidad2 {
+        margin-top: -7vh ;
     }
 
     .publicidad2 img{
-        width: 15vh;
-        
+        width: 18vh;
+        margin-top: 8vh ; 
+ 
     }
 
     .publicidad3 img{
-        width: 15vh;
-        height: 15vh;
+        width: 18vh;
+        height: 18vh;
+       
     }
 
     .snacks, .cigarrillos{
@@ -214,13 +261,16 @@ p{
     }
 
     .carousel-item img{
-        width: 50vh;
+        width: 40vh;
+    }
 
+    .rounded mx-auto d-block{
+        padding: 1vh;
     }
 
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 767px) and (max-width: 980px){
 
     .snacks, .cigarrillos{
         display: flex;
@@ -232,18 +282,18 @@ p{
     }
 
     .publicidad2 img{
-        width: 15vh;
-        
+        width:21vh;
+
     }
 
-    .publicidades{
-        margin-top: 0;
+    .publicidad2{
+        margin-top: 1vh;
     }
-
 
     .publicidad3 img{
-        width: 15vh;
-        height: 15vh;
+        width: 21vh;
+        height: 21vh;
+        padding-right: 2vh;
     }
 
     .txt-conalc{
@@ -252,5 +302,55 @@ p{
     
 }
 
+@media only screen and (min-width: 980px) and (max-width: 1024px){
+    .txt-conalc{
+        visibility: hidden;
+    } 
+
+    .publicidad2 img{
+        width: 23vh;
+        padding-right: 2vh;
+    }
+
+    .publicidad3 img{
+        width: 23vh;
+        height: 23vh;
+        padding-right: 2vh;
+    }
+
+    .publicidad2{
+        margin-top: 45vh;
+    }
+
+    .publicidad3{
+        margin-top: 2vh;
+     
+    }
+    .masBuscados-img{
+        width: 30vh;
+    }
+}
 
 
+@media only screen and (min-width: 1025px) and (max-width: 1300px){
+    .publicidad2 img{
+        width: 27vh;
+        padding-right: 2vh;
+    }
+
+    .publicidad3 img{
+        width: 27vh;
+        height: 23vh;
+        padding-right: 2vh;
+    }
+
+    .publicidad2{
+        margin-top: 50vh; 
+    }
+
+    .publicidad3{
+        margin-top: 2vh;
+     
+    }
+
+}
