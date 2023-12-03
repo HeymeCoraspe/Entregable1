@@ -1,0 +1,51 @@
+nav{
+    background-color: #860480;
+}
+
+.container-form{
+    background-color: #ecb5de;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.info-form{
+    max-width: 600px;
+    margin: 50px;
+    padding-left: 10%;
+    
+
+}
+
+.maps{
+    max-width: 600px;
+    margin: 50px;
+    padding-left: 15%;
+    
+}
+footer{
+   
+    background-color: #860480;
+    text-align: center;
+    
+
+    
+}
+@media (max-width: 768px) {
+    .container-form {
+        flex-direction: column;
+
+
+}
+.info-form,
+    .maps {
+        max-width: 100%; 
+        padding-left: 5%; 
+        margin: 20px; 
+    }
+}
+
+    
+
+    
