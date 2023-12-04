@@ -1,0 +1,48 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+section{
+    background-color: #ecb5de;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav{
+    background-color: #ecb5de;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+.card{
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.Derechos{
+    background-color: #d14db0;
+    text-align: center;
+}
+
+footer{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #ecb5de;
+    text-align: center;   
+}
+
+
+

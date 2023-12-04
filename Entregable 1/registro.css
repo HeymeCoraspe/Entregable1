@@ -3,18 +3,21 @@
     
     
     .bg-NAV {
-        background-color: #ecb5de;;
+        background-color: #ecb5de;
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     
     
     .bg-footer {
         background-color: #ecb5de;;
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     .Derechos{
         background-color: #c058a6;;
         text-align: center;
+        font-family: 'Space Grotesk', sans-serif;
     }
     .registro-form {
         max-width: 600px;
@@ -23,11 +26,12 @@
         background: #c058a6;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     .form-container {
         display: flex;
-        
+        font-family: 'Space Grotesk', sans-serif;
         justify-content: space-between;
     }
     
@@ -39,6 +43,7 @@
     label {
         display: block;
         margin-bottom: 8px;
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     

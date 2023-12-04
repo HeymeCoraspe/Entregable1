@@ -344,22 +344,22 @@ p{
 }
 
 
-@media only screen and (min-width: 1025px) and (max-width: 1300px){
+@media only screen and (min-width: 1025px) and (max-width: 1500px){
 
     .publicidad1 img{
-        width: 37vh;
-        padding-right: 2vh;
+        width: 40vh;
+        padding-right: 3vh;
     }
 
     .publicidad2 img{
-        width: 37vh;
-        padding-right: 2vh;
+        width: 40vh;
+        padding-right: 3vh;
     }
 
     .publicidad3 img{
-        width: 37vh;
-        height: 37vh;
-        padding-right: 2vh;
+        width: 40vh;
+        height: 40vh;
+        padding-right: 3vh;
     }
 
     .publicidad2{

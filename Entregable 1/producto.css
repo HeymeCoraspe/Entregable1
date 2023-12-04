@@ -2,6 +2,7 @@ body {
 
     margin: 0;
     padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
     
 }
 .producto-container {
@@ -10,6 +11,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 
@@ -20,16 +22,19 @@ body {
 
 .product-title {
     margin: 10px 0;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .producto-precio{
     font-size: 18px;
     color: #e426be;
     margin-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .producto-descripcion {
     margin-bottom: 20px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .buy-button {
@@ -51,11 +56,13 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .comentario-author {
     font-weight: bold;
     margin-bottom: 5px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .comentario-text {
@@ -67,12 +74,14 @@ body {
     
     .bg-NAV {
         background-color: #ecb5de;
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     
     
     .bg-footer {
         background-color: #ecb5de;
+        font-family: 'Space Grotesk', sans-serif;
     }
     
     .btn-eliminar:hover{
@@ -92,4 +101,5 @@ background-color: green;
     .Derechos{
         background-color: #d14db0;
         text-align: center;
+        font-family: 'Space Grotesk', sans-serif;
     }

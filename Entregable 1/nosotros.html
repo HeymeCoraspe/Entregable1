@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=sec, initial-scale=1.0">
-    <title>Fernet + Coca Cola</title>
-    <link rel="stylesheet" href="Producto.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+    <link rel="stylesheet" href="nosotros.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
 </head>
-<body> 
-    
+<body>
     <header>
       <nav class="navbar navbar-expand-lg bg-NAV">
         <div class="container-fluid">
@@ -51,7 +45,7 @@
                 </li>
                 <li class="nav-item s-n">
                   <a class="nav-link active" aria-current="page" href="nosotros.html"
-                  target="_blank" >Sobre Nosotros</a
+                    target="_blank">Sobre Nosotros</a
                   >
                 </li>
                 <li class="nav-item dropdown">
@@ -106,42 +100,87 @@
           </div>
         </div>
       </nav>
-      </header>
-
-
-      <div class="producto-container">
-        <div class="Producto">
-            <img class="producto-image" src="https://flaming.ar/wp-content/uploads/2022/07/Combos-Aperitivos-02.jpg" alt="fernet + gaseosa">
-            <h2 class="producto-title">Promo combo fernet Branca con Coca Cola</h2>
-            <p class="producto-precio">$5000,00</p>
-            <p class="producto-descripcion">1 Botella de Fernet Branca + 1 Botella de Coca- cola 2250cc </p>
-            <button class="buy-button" type="submit">Comprar</button>
-            </div>
-
-        <!-- Sección de Comentarios -->
-        <div class="comentarios-section">
-            <h3>Comentarios</h3>
-
-            <!-- Comentario 1 -->
-            <div class="comentarios">
-                <p class="comentario-author">Heyme</p>
-                <p class="comentario-text">La mejor combinacion</p>
-            </div>
-
-            <!-- Comentario 2 -->
-            <div class="comentarios">
-                <p class="comentario-author">Felipe</p>
-                <p class="comentario-text"> Mi tienda de confianza</p>
-            </div>
-         
-            <!-- Comentario 3 -->
-            <div class="comentarios">
-                <p class="comentario-author">Gonzalo</p>
-                <p class="comentario-text">Siempre los mejores precios</p>
-            </div>
+    </header>
+    <main>
+      <section>
+      
+      <div class="container-nosotros">
+        <div class="title">
+        <h1>Nuestro objetivo</h1>
         </div>
-    </div>
-    <footer>
+        <br>
+        <br>
+        <p>
+          Somos un grupo de 4 alumnos, del instituto rollingcodeschool interesados en 
+          entrar en el mundo de la programacion, para en un futuro convertirnos en 
+          desarrolladores full stack.
+          <br>
+          Nuestro paso por el curso comenzo hace 2 meses y llego el momento de plasmar
+          lo aprendido con el diseño de esta pagina web.
+          <br>
+          Nuestra tarea como grupo es llevar cabo nuestro primer proyecto aplicando HTML,
+          CSS Y BOOTSTRAP.
+        </p>
+      </div>
+
+   
+        
+        <div class="container-card ">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://avatars.githubusercontent.com/u/126781448?s=400&u=53c6e21a52658da1132db5fe3f3bb257c9198915&v=4" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h4><strong>Agustin Salvatierra</strong></h4>
+                  <p class="card-text">Edad 22 años, agente de Teleperformance, estudiante de ing en sistema y futuro
+                    programador de RC.</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://avatars.githubusercontent.com/u/148924470?s=400&u=d6d2a6919de1176cca4ef7a191d9af59398b1b67&v=4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4><strong>Felipe Molina</strong></h4>
+                  <p class="card-text">Edad 26 años, trabajo en la empresa gastronomica de mi familia, me gustan los videojuegos y jugar
+                    futbol.</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="https://avatars.githubusercontent.com/u/115550175?v=4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4><strong>Heyme Coraspe</strong></h4>
+                  <p class="card-text">Edad 32 años, soy desarrolladora Front-End trainee.
+                    Me encantan los gatos y leer.
+                  </p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card" style="width: 18rem; text-align: center;">
+                <img src="img/fotogonza.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4><strong>Gonzalo Gramajo</strong></h4>
+                  <p class="card-text">Edad 18 años, Estudio licenciatura en 
+                    diseño multimedial y mi pasion es ir a la cancha de atletico tucuman.
+                    </p>
+                </div>
+              </div>
+            </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      
+      <footer>
         <div class="container-fluid bg-footer text-center mt-4">
           <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-lg-3 align-items-center mt-5">
@@ -149,7 +188,7 @@
                 ><img
                   class="align-items-center"
                   src="./images/logo ARMA TU PREVIAA TRANSPARENTE .png"
-                  alt="Logos"
+                  alt="Logo Mil Coronas"
                   width="250"
               /></a>
             </div>
@@ -233,7 +272,7 @@
                         type="button"
                         class="btn btn-secondary bt"
                         data-bs-dismiss="modal"
-                      >
+                        >
                         Cerrar
                       </button>
                       <button type="submit" class="btn btn-dark bt">
@@ -255,34 +294,34 @@
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-            <div
-              class="col-12 col-md-6 col-lg-3 align-items-center d-flex flex-column mt-5"
-            >
-              <a href="https://www.facebook.com/RollingCodeSchool/"
-                ><i class="fa-brands fa-facebook text-white fs-4 m-2"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/rollingcodeschool/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
-                ><i class="fa-brands fa-instagram text-white fs-4 m-4"></i
-              ></a>
-              <a href="https://wa.me/3816342100"
-                ><i class="fa-brands fa-whatsapp text-white fs-4 m-2"></i
-              ></a>
+                ></iframe>
+              </div>
+              <div
+                class="col-12 col-md-6 col-lg-3 align-items-center d-flex flex-column mt-5"
+              >
+                <a href="https://www.facebook.com/RollingCodeSchool/"
+                  ><i class="fa-brands fa-facebook text-white fs-4 m-2"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/rollingcodeschool/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+                  ><i class="fa-brands fa-instagram text-white fs-4 m-4"></i
+                ></a>
+                <a href="https://wa.me/3816342100"
+                  ><i class="fa-brands fa-whatsapp text-white fs-4 m-2"></i
+                ></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="Derechos">
-          <small>
-              &copy;<b>Arma Tu previa</b> -Todos los Derechos Reservados-
-          </small>
-        </div>
+
+          <div class="Derechos">
+            <small>
+                &copy;<b>Arma Tu previa</b> -Todos los Derechos Reservados-
+            </small>
+          </div>
+
       </footer>
-
-
-</body>
-</html>    
-
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
