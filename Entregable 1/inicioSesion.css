@@ -1,0 +1,102 @@
+*{margin: 0; padding: 0;}
+.container {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    background-color: #ecb5de;
+    border: none;
+    box-shadow: 1px -1px 58px -1px rgba(0, 0, 0, 0.51);
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+ 
+  .logo-container {
+    margin-right: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .body-inicio {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    background-color: #860480;
+    justify-content: center;
+    height: 100vh;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    max-width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    max-height: 100%;
+  }
+  .form-container {
+    flex: 1;
+    padding: 20px;
+  }
+  .imge-container {
+    flex: 1;
+    text-align: center;
+  }
+  form {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .imge-container {
+    display: block;
+  }
+  .boton {
+    background-color: #440035;
+  }
+  .imge-container {
+    max-width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+
+  .registrate {
+    color: rgb(2, 42, 129);
+  }
+
+  body {
+    background-color: #860480;
+  }
+
+  .body-registro {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    background-color: #ecb5de;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container-registro {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    background-color: #860480;
+    border: none;
+    box-shadow: 1px -1px 58px -1px rgba(0, 0, 0, 0.51);
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+
+
+/* Agregado estilo para el margen inferior del formulario */
+.form-container {
+    margin-bottom: 20px;
+}

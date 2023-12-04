@@ -37,8 +37,8 @@ body{
 .btn-mostrar:hover{
     background-color:#e353bf; 
     scale: 1.2;
-    border-radius: 30vh;
-    font-weight: 600;
+    font-weight: 400;
+    color: white;
 }
 
 .carousel-item img{
@@ -229,7 +229,6 @@ p{
 }
 
 
-
 @media only screen and (min-width: 481px) and (max-width: 767px)  {
 
     .container{
@@ -272,7 +271,6 @@ p{
     }
 
 }
-
 
 @media only screen and (min-width: 767px) and (max-width: 980px){
 
