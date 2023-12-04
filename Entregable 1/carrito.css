@@ -1,0 +1,32 @@
+*{margin: 0;
+    padding: 0;}
+    
+    body{
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    .bg-NAV {
+        background-color: #ecb5de;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    
+    
+    .bg-footer {
+        background-color: #ecb5de;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .btn-eliminar:hover{
+        background-color: rgb(255, 38, 0);
+        color: white;
+    }
+
+    .btn-success:hover{
+background-color: green;
+
+    }
+
+    .btn-volver:hover{
+        background-color: darkred;
+       
+    }
