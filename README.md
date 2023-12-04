@@ -1,2 +1,2 @@
 # Entregable1
-Págia web distribuidora de bebidas. HTML, CSS BOOTSTRAP
+Págia web distribuidora de bebidas. HTML, CSS, BOOTSTRAP
